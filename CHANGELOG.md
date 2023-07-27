@@ -1,6 +1,6 @@
 # Change log
 
-## master (unreleased)
+## main (unreleased)
 
 ## 1.4.7 (2023-07-24)
 

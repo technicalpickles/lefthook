@@ -23,12 +23,12 @@ pre-push:
   commands:
     stylelint:
       tags: frontend style
-      files: git diff --name-only master
+      files: git diff --name-only main
       glob: "*.js"
       run: yarn stylelint {files}
     rubocop:
       tags: backend style
-      files: git diff --name-only master
+      files: git diff --name-only main
       glob: "*.rb"
       run: bundle exec rubocop --force-exclusion {files}
   scripts:

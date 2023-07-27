@@ -1,5 +1,5 @@
-![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/evilmartians/lefthook/badge.svg?branch=master)](https://coveralls.io/github/evilmartians/lefthook?branch=master)
+![Build Status](https://github.com/evilmartians/lefthook/actions/workflows/test.yml/badge.svg?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/evilmartians/lefthook/badge.svg?branch=main)](https://coveralls.io/github/evilmartians/lefthook?branch=main)
 
 # Lefthook
 
@@ -210,8 +210,8 @@ skip_output:
 * [Overcommit](https://github.com/evilmartians/lefthook/wiki/Migration-from-overcommit)
 
 ### Examples
-* [Simple script](https://github.com/evilmartians/lefthook/tree/master/examples/with_scripts)
-* [Full features](https://github.com/evilmartians/lefthook/tree/master/examples/complete)
+* [Simple script](https://github.com/evilmartians/lefthook/tree/main/examples/with_scripts)
+* [Full features](https://github.com/evilmartians/lefthook/tree/main/examples/complete)
 
 ### Benchmarks
 * [vs Overcommit](https://github.com/evilmartians/lefthook/wiki/Benchmark-lefthook-vs-overcommit)

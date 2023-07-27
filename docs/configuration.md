@@ -336,7 +336,7 @@ If the result of this command is empty, the execution of commands will be skippe
 # lefthook.yml
 
 pre-commit:
-  files: git diff --name-only master # custom list of files
+  files: git diff --name-only main # custom list of files
   commands:
     ...
 ```
@@ -856,7 +856,7 @@ pre-push:
   commands:
     stylelint:
       tags: frontend style
-      files: git diff --name-only master
+      files: git diff --name-only main
       glob: "*.js"
       run: yarn stylelint {files}
 ```
@@ -1105,7 +1105,7 @@ pre-commit:
 
 ## Examples
 
-We have a directory with few examples. You can check it [here](https://github.com/evilmartians/lefthook/tree/master/examples).
+We have a directory with few examples. You can check it [here](https://github.com/evilmartians/lefthook/tree/main/examples).
 
 ## More info
 

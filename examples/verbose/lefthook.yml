@@ -30,7 +30,7 @@ pre-commit:
     # Double quotes `"` and single quotes `'` are supported.
     ruby-lint:
       glob: "*.rb"
-      files: git diff-tree -r --name-only --diff-filter=CDMR HEAD origin/master
+      files: git diff-tree -r --name-only --diff-filter=CDMR HEAD origin/main
       run: bundle exec rubocop --force-exclusion --parallel '{files}'
 
 # You can provide more hooks.
